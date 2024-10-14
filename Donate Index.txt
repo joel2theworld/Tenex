@@ -1,0 +1,201 @@
+Donate Index
+
+ViewData["Title"] = "Donate";
+DonateViewModel donate = new DonateViewModel();
+
+</div>
+
+<div class="d-flex justify-content-center align-items-center" style="height: 80vh;">
+<div class="card" style="width: 24rem;">
+<div class="card-body">
+<h3 class="card-title text-center">Donate</h3>
+<form method="post" asp-controller="Donate" asp-action="Index">
+<div class="form-group">
+<label for="name">Name</label>
+<input type="text" class="form-control" asp-for=@donate.Name name="name" id="name" required/>
+</div>
+<div class="form-group">
+<label for="email">Email</Label>
+<input type="email" class="form-control" asp-for=@donate.Email name="email" id="email" required/>
+</div>>
+<div class="form-group">
+<label for="amount">Amount</label>
+<input type="number" class="form-control" asp-for=@donate.Amount name="amount" id="amount" required/>
+</div>
+<button type="submit" class="btn btn-primary btn-block">Donate</button>
+</forn>
+</div>
+</div>
+
+Home Index
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Payment Home";
+}
+<div class="d-flex justify-content-center align-items-center" style="height: 80vh;">
+    <div class="btn-group">
+        <a class="btn btn-primary">Pay</a>
+        <a class="btn btn-secondary">View Payments</a>
+    </div>
+</div>
+
+"payment": {
+"PaystackSK": "sk_test_3e15d76fb166d894dd8423d70c9d55c1a123e955"
+},
+"ConnectionStrings": {
+"default": "User ID =postgres;Password=insight;Server=localhost;Port=5432;Database=donation;Integrated Security
+
+
+
+
+
+[HttpPost]
+O references
+public async Task<IActionResult> Index(DonateViewModel donate)
+
+TransactionInitializeRequest request = nEw()
+
+AmountInKobo = donate.Amount * 100,
+Email = donate.Email,
+Reference = Generate(). ToString(,
+Currency = "NGN",
+CallbackUrl = "http://Localhost:36222/donate/verify"
+
+}:
+
+TransactionInitializeResponse response = Paystack.Transactions. Initialize(request);
+if (response.Status)
+
+var transaction = new TransactionModel()
+
+Amount = donate.Amount,
+Email = donate.Email,
+TrxRef = request.Reference,
+Name = donate.Name,
+
+await _context.Transactions.AddAsync(transaction);
+Redirect(response.Data.AuthorizationUrl);
+
+ViewData["error"] = response.Message;
+return View(;
+
+
+
+
+ViewData["Title"] = "Donate";
+var error = ViewData["error"] as string;
+DonateViemModel donate = new DonateViewModel();
+
+<div class="d-flex justify-content-center align-items-center" style="height: 80vh;">
+<div class="card" style="width: 24rem;">
+<div class="card-body">
+<h3 class="card-title text-center">Donate</h3>
+@if (!string. IsNullOrEmpty(error))
+{
+<div class="alert alert-danger">@error</div>
+}
+<form method="post" asp-controller="Donate" asp-action="Index">
+<div class="form-group">
+<label for="name">Name</Label>
+<input type="text" class="form-control" asp-for=@donate.Nane name="nane" id="name" required >
+</div>
+<div class="form-group">
+<label for="email">Email</Label>
+<input type="email" class="form-control" asp-for=@donate.Email name="email" id="email" required/>
+</div>>
+<div class="form-group">
+<label for="amount">Amount</label>
+<input type="number" class="form-control" asp-for=@donate.Amount name="amount" id="amount" required/>
+</div>
+<button type="submit" class="btn btn-primary btn-block">Donate</button>
+</form>
+</div>
+</div>
+</div>
+
+
+[HttpGet]
+O references
+public async Task<IActionResult> Verify(string reference)
+
+TransactionVerifyResponse response = Paystack.Transactions.Verify(reference);
+if(response.Data.Status == "success")
+
+var transaction = _context. Transactions.Where(x => x.TrxRef == reference).FirstOrDefault();
+if(transaction != null)
+{
+
+transaction.Status = true;
+_context. Transactions.Update(transaction);
+await _context.SaveChangesAsync();|
+
+}
+return View();
+
+
+ViewData["Title"] = "Payments";
+var transactions = ViewData["transactions"] as List<Transaction>;
+
+<div>
+<table class="table">
+<thead>
+<tr>
+<th>Name</th>
+<th>Email</th>
+<th>Amount</th>
+<th>Transaction Ref</th>
+</tr>
+</thead>
+<tbody>
+@foreach (var transaction in transactions)
+{
+<tr>
+
+<td>@transaction.Name</td>
+<td>@transaction.Email</td>
+<td>@transaction.Amount</td>
+<td>@transaction.TrxRef</td>
+</tr>
+}
+</tbody>
+</table>
+</div>
+
+ViewData["Title"] = "Home Page";
+
+g<div class="d-flex justify-content-center align-items-center" style="height: 80vh;">
+<div class="btn-group">
+<a class="btn btn-primary[>Donate</a>
+<a class="btn btn-secondary>View Donations</a>
+</div>
+</div>
+
+<div class="d-flex justify-content-center align-items-center" style="height: 80vh;">
+<div class="btn-group">
+<a class="btn btn-primary" asp-controller="Donate" asp-action="Index">Donate</a>
+<a class="btn btn-secondary" asp-controller="Donate" asp-action="Donations">View Donations</a>
+</div>
+</div>
+
+
+ "Payment": {
+   "PaystackSK": "sk_test_780fcce82dce1af7b0fe751a3abebbbcd2348342"
+ },
+TenexCars.csproj
+ <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+</PackageReference>
+<PackageReference Include="Paystack.Net" Version="1.1.1" />
+<PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
+
+Transaction
+public string Id { get; set; } = Guid.NewGuid().ToString();
+public string Name { get; set; }
+public int Amount { get; set; }
+public string TrxRef { get; set; }
+public string Email { get; set; }
+public bool Status { get; set; }
+public DateTime CreatedAt { get; set; } = DateTime.Now;
+
+
