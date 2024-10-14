@@ -1,0 +1,7 @@
+
+  "EmailSettings": {
+    "Host": "smtp.gmail.com",
+    "Port": 587,
+    "Username": "tenexcars@gmail.com",
+    "Password": "tenex_cars_1234"
+  },
