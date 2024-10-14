@@ -1,0 +1,420 @@
+﻿@model TenexCars.DataAccess.ViewModels.CreateVehicleViewModel
+
+@{
+    ViewData["Title"] = "Create Vehicle";
+}
+
+<h2>Create Vehicle</h2>
+
+<form asp-action="CreateVehicle" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label asp-for="Make" class="control-label"></label>
+        <input asp-for="Make" class="form-control" />
+        <span asp-validation-for="Make" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Model" class="control-label"></label>
+        <input asp-for="Model" class="form-control" />
+        <span asp-validation-for="Model" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PlateNumber" class="control-label"></label>
+        <input asp-for="PlateNumber" class="form-control" />
+        <span asp-validation-for="PlateNumber" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CarDescription" class="control-label"></label>
+        <input asp-for="CarDescription" class="form-control" />
+        <span asp-validation-for="CarDescription" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ChasisNumber" class="control-label"></label>
+        <input asp-for="ChasisNumber" class="form-control" />
+        <span asp-validation-for="ChasisNumber" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SeatNumbers" class="control-label"></label>
+        <input asp-for="SeatNumbers" class="form-control" />
+        <span asp-validation-for="SeatNumbers" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Mileage" class="control-label"></label>
+        <input asp-for="Mileage" class="form-control" />
+        <span asp-validation-for="Mileage" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TrunkSize" class="control-label"></label>
+        <input asp-for="TrunkSize" class="form-control" />
+        <span asp-validation-for="TrunkSize" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Color" class="control-label"></label>
+        <input asp-for="Color" class="form-control" />
+        <span asp-validation-for="Color" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="VIN" class="control-label"></label>
+        <input asp-for="VIN" class="form-control" />
+        <span asp-validation-for="VIN" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PickupAddress" class="control-label"></label>
+        <input asp-for="PickupAddress" class="form-control" />
+        <span asp-validation-for="PickupAddress" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="City" class="control-label"></label>
+        <input asp-for="City" class="form-control" />
+        <span asp-validation-for="City" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ZIP" class="control-label"></label>
+        <input asp-for="ZIP" class="form-control" />
+        <span asp-validation-for="ZIP" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="OperatorId" class="control-label"></label>
+        <input asp-for="OperatorId" class="form-control" />
+        <span asp-validation-for="OperatorId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CarDealerName" class="control-label"></label>
+        <input asp-for="CarDealerName" class="form-control" />
+        <span asp-validation-for="CarDealerName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FinacialStartDate" class="control-label"></label>
+        <input asp-for="FinacialStartDate" class="form-control" />
+        <span asp-validation-for="FinacialStartDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FinacialEndDate" class="control-label"></label>
+        <input asp-for="FinacialEndDate" class="form-control" />
+        <span asp-validation-for="FinacialEndDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CarWarrantyOverview" class="control-label"></label>
+        <input asp-for="CarWarrantyOverview" class="form-control" />
+        <span asp-validation-for="CarWarrantyOverview" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Torque" class="control-label"></label>
+        <input asp-for="Torque" class="form-control" />
+        <span asp-validation-for="Torque" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TransmissionType" class="control-label"></label>
+        <input asp-for="TransmissionType" class="form-control" />
+        <span asp-validation-for="TransmissionType" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Horsepower" class="control-label"></label>
+        <input asp-for="Horsepower" class="form-control" />
+        <span asp-validation-for="Horsepower" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TurningDiameter" class="control-label"></label>
+        <input asp-for="TurningDiameter" class="form-control" />
+        <span asp-validation-for="TurningDiameter" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CurbWeight" class="control-label"></label>
+        <input asp-for="CurbWeight" class="form-control" />
+        <span asp-validation-for="CurbWeight" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DiscBrakes" class="control-label"></label>
+        <input asp-for="DiscBrakes" class="form-control" />
+        <span asp-validation-for="DiscBrakes" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TransmissionSpeed" class="control-label"></label>
+        <input asp-for="TransmissionSpeed" class="form-control" />
+        <span asp-validation-for="TransmissionSpeed" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DriveAxleRatio" class="control-label"></label>
+        <input asp-for="DriveAxleRatio" class="form-control" />
+        <span asp-validation-for="DriveAxleRatio" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="StabilityControl" class="control-label"></label>
+        <input asp-for="StabilityControl" class="form-control" />
+        <span asp-validation-for="StabilityControl" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="RangeOfFullCharge" class="control-label"></label>
+        <input asp-for="RangeOfFullCharge" class="form-control" />
+        <span asp-validation-for="RangeOfFullCharge" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CargoSpace" class="control-label"></label>
+        <input asp-for="CargoSpace" class="form-control" />
+        <span asp-validation-for="CargoSpace" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TouchScreenDisplay" class="control-label"></label>
+        <input asp-for="TouchScreenDisplay" class="form-control" />
+        <span asp-validation-for="TouchScreenDisplay" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DriverLumbarSupport" class="control-label"></label>
+        <input asp-for="DriverLumbarSupport" class="form-control" />
+        <span asp-validation-for="DriverLumbarSupport" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NumberOfSpeakers" class="control-label"></label>
+        <input asp-for="NumberOfSpeakers" class="form-control" />
+        <span asp-validation-for="NumberOfSpeakers" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Radio" class="control-label"></label>
+        <input asp-for="Radio" class="form-control" />
+        <span asp-validation-for="Radio" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AndroidAuto_AppleCarPlay" class="control-label"></label>
+        <input asp-for="AndroidAuto_AppleCarPlay" class="form-control" />
+        <span asp-validation-for="AndroidAuto_AppleCarPlay" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TouchScreenNavSystem" class="control-label"></label>
+        <input asp-for="TouchScreenNavSystem" class="form-control" />
+        <span asp-validation-for="TouchScreenNavSystem" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ProjectorBeamLedHeadlight" class="control-label"></label>
+        <input asp-for="ProjectorBeamLedHeadlight" class="form-control" />
+        <span asp-validation-for="ProjectorBeamLedHeadlight" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="RemoteKeylessEntry" class="control-label"></label>
+        <input asp-for="RemoteKeylessEntry" class="form-control" />
+        <span asp-validation-for="RemoteKeylessEntry" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="StandardLowTirePressureWarning" class="control-label"></label>
+        <input asp-for="StandardLowTirePressureWarning" class="form-control" />
+        <span asp-validation-for="StandardLowTirePressureWarning" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="BluetoothSystem" class="control-label"></label>
+        <input asp-for="BluetoothSystem" class="form-control" />
+        <span asp-validation-for="BluetoothSystem" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="WheelDrive" class="control-label"></label>
+        <select asp-for="WheelDrive" class="form-control">
+            <option value="">Select</option>
+            @* Add options for WheelDrive Enum *@
+            @foreach (var value in Enum.GetValues(typeof(TenexCars.DataAccess.Enums.WheelDrive)))
+            {
+                <option value="@value">@value</option>
+            }
+        </select>
+        <span asp-validation-for="WheelDrive" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EngineType" class="control-label"></label>
+        <select asp-for="EngineType" class="form-control">
+            <option value="">Select</option>
+            @* Add options for EngineType Enum *@
+            @foreach (var value in Enum.GetValues(typeof(TenexCars.DataAccess.Enums.EngineType)))
+            {
+                <option value="@value">@value</option>
+            }
+        </select>
+        <span asp-validation-for="EngineType" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CarName" class="control-label"></label>
+        <select asp-for="CarName" class="form-control">
+            <option value="">Select</option>
+            @* Add options for CarName Enum *@
+            @foreach (var value in Enum.GetValues(typeof(TenexCars.DataAccess.Enums.CarName)))
+            {
+                <option value="@value">@value</option>
+            }
+        </select>
+        <span asp-validation-for="CarName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CarModel" class="control-label"></label>
+        <select asp-for="CarModel" class="form-control">
+            <option value="">Select</option>
+            @* Add options for CarModel Enum *@
+            @foreach (var value in Enum.GetValues(typeof(TenexCars.DataAccess.Enums.CarModel)))
+            {
+                <option value="@value">@value</option>
+            }
+        </select>
+        <span asp-validation-for="CarModel" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="State" class="control-label"></label>
+        <select asp-for="State" class="form-control">
+            <option value="">Select</option>
+            @* Add options for State Enum *@
+            @foreach (var value in Enum.GetValues(typeof(TenexCars.DataAccess.Enums.State)))
+            {
+                <option value="@value">@value</option>
+            }
+        </select>
+        <span asp-validation-for="State" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DcFastCharging" class="control-label"></label>
+        <select asp-for="DcFastCharging" class="form-control">
+            <option value="">Select</option>
+            @* Add options for DcFastCharging Enum *@
+            @foreach (var value in Enum.GetValues(typeof(TenexCars.DataAccess.Enums.DcFastCharging)))
+            {
+                <option value="@value">@value</option>
+            }
+        </select>
+        <span asp-validation-for="DcFastCharging" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="HomeCharger" class="control-label"></label>
+        <select asp-for="HomeCharger" class="form-control">
+            <option value="">Select</option>
+            @* Add options for HomeCharger Enum *@
+            @foreach (var value in Enum.GetValues(typeof(TenexCars.DataAccess.Enums.HomeCharger)))
+            {
+                <option value="@value">@value</option>
+            }
+        </select>
+        <span asp-validation-for="HomeCharger" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SeatHeater" class="control-label"></label>
+        <select asp-for="SeatHeater" class="form-control">
+            <option value="">Select</option>
+            @* Add options for SeatHeater Enum *@
+            @foreach (var value in Enum.GetValues(typeof(TenexCars.DataAccess.Enums.SeatHeater)))
+            {
+                <option value="@value">@value</option>
+            }
+        </select>
+        <span asp-validation-for="SeatHeater" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Cartype" class="control-label"></label>
+        <select asp-for="Cartype" class="form-control">
+            <option value="">Select</option>
+            @* Add options for Cartype Enum *@
+            @foreach (var value in Enum.GetValues(typeof(TenexCars.DataAccess.Enums.CarType)))
+            {
+                <option value="@value">@value</option>
+            }
+        </select>
+        <span asp-validation-for="Cartype" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ReservationFee" class="control-label"></label>
+        <input asp-for="ReservationFee" class="form-control" />
+        <span asp-validation-for="ReservationFee" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TotalCostOfCar" class="control-label"></label>
+        <input asp-for="TotalCostOfCar" class="form-control" />
+        <span asp-validation-for="TotalCostOfCar" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ActivationFee" class="control-label"></label>
+        <input asp-for="ActivationFee" class="form-control" />
+        <span asp-validation-for="ActivationFee" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MonthlyCost" class="control-label"></label>
+        <input asp-for="MonthlyCost" class="form-control" />
+        <span asp-validation-for="MonthlyCost" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MarketValue" class="control-label"></label>
+        <input asp-for="MarketValue" class="form-control" />
+        <span asp-validation-for="MarketValue" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DecrementMarketValue" class="control-label"></label>
+        <input asp-for="DecrementMarketValue" class="form-control" />
+        <span asp-validation-for="DecrementMarketValue" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ImageUrl" class="control-label"></label>
+        <input asp-for="ImageUrl" class="form-control" />
+        <span asp-validation-for="ImageUrl" class="text-danger"></span>
+    </div>
+
+   @*  <div class="form-group">
+        <label asp-for="PublicId" class="control-label"></label>
+        <input asp-for="PublicId" class="form-control" />
+        <span asp-validation-for="PublicId" class="text-danger"></span>
+    </div> *@
+
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
