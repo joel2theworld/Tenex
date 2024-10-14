@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/decagon/Desktop/TenexCars/TenexCars/TenexCars.DataAccess/TenexCars.DataAccess.csproj": {}
+    "/Users/decagon/Desktop/tenex/Tenex/TenexCars.DataAccess/TenexCars.DataAccess.csproj": {}
   },
   "projects": {
-    "/Users/decagon/Desktop/TenexCars/TenexCars/TenexCars.DataAccess/TenexCars.DataAccess.csproj": {
+    "/Users/decagon/Desktop/tenex/Tenex/TenexCars.DataAccess/TenexCars.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/decagon/Desktop/TenexCars/TenexCars/TenexCars.DataAccess/TenexCars.DataAccess.csproj",
+        "projectUniqueName": "/Users/decagon/Desktop/tenex/Tenex/TenexCars.DataAccess/TenexCars.DataAccess.csproj",
         "projectName": "TenexCars.DataAccess",
-        "projectPath": "/Users/decagon/Desktop/TenexCars/TenexCars/TenexCars.DataAccess/TenexCars.DataAccess.csproj",
+        "projectPath": "/Users/decagon/Desktop/tenex/Tenex/TenexCars.DataAccess/TenexCars.DataAccess.csproj",
         "packagesPath": "/Users/decagon/.nuget/packages/",
-        "outputPath": "/Users/decagon/Desktop/TenexCars/TenexCars/TenexCars.DataAccess/obj/",
+        "outputPath": "/Users/decagon/Desktop/tenex/Tenex/TenexCars.DataAccess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/decagon/.nuget/NuGet/NuGet.Config"
@@ -61,15 +61,23 @@
               "target": "Package",
               "version": "[8.0.5, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.5, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
             }
           },
           "imports": [

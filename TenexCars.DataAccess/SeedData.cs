@@ -53,23 +53,6 @@ namespace TenexCars.DataAccess
         {
             var users = await _userManager.Users.ToListAsync();
 
-            //if (!_userManager.Users.Any())
-            //{
-            //    var adminUser = new AppUser
-            //    {
-            //        UserName = "adminprime@mailinator.com",
-            //        Email = "adminprime@mailinator.com",
-            //        FirstName = "Admin",
-            //        LastName = "Prime",
-            //        Type = "Tenex_Admin"
-            //    };
-
-            //    await _userManager.CreateAsync(adminUser, "199026_Ll");
-
-
-            //    await _userManager.AddToRoleAsync(adminUser, "Tenex_Admin");
-            //}
-
             if (!users.Any(u => _userManager.IsInRoleAsync(u, "Main_Operator").Result))
             {
                 var operatorUser = new AppUser

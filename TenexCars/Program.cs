@@ -13,6 +13,7 @@ using TenexCars.DataAccess.Repositories.Interfaces;
 using TenexCars.Helper;
 using TenexCars.Interfaces;
 using TenexCars.Services;
+using Npgsql;
 
 namespace TenexCars
 {
@@ -41,7 +42,7 @@ namespace TenexCars
 				builder.Services.AddControllersWithViews();
 				builder.Services.AddDbContext<ApplicationDbContext>(options =>
 				{
-					options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+					options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
 				});
 				builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 				{
@@ -93,7 +94,7 @@ namespace TenexCars
 				{
 					var services = scope.ServiceProvider;
 					var seedData = services.GetRequiredService<SeedData>();
-					seedData.SeedAsync().Wait();
+					// seedData.SeedAsync().Wait();
 				}
 
 				// Configure the HTTP request pipeline.
