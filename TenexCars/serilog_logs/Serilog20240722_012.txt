@@ -1,0 +1,10 @@
+2024-07-22 02:32:11.712 +01:00 [INF] Starting web host
+2024-07-22 02:32:15.405 +01:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Transaction'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-22 02:32:22.153 +01:00 [INF] HTTP GET / responded 200 in 590.3231 ms
+2024-07-22 02:34:42.094 +01:00 [Information] Starting web host
+2024-07-22 02:34:47.223 +01:00 [Warning] No store type was specified for the decimal property '"Amount"' on entity type '"Transaction"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-22 02:34:55.734 +01:00 [Information] HTTP "GET" "/" responded 200 in 2441.3353 ms
+2024-07-22 02:36:24.768 +01:00 [Information] HTTP "GET" "/Operator/Home" responded 200 in 1407.9323 ms
+2024-07-22 02:36:24.889 +01:00 [Information] HTTP "GET" "/TenexCars.styles.css" responded 304 in 1.3840 ms
+2024-07-22 02:36:24.889 +01:00 [Information] HTTP "GET" "/Assets/logo2.png" responded 304 in 1.2416 ms
+2024-07-22 02:36:24.879 +01:00 [Information] HTTP "GET" "/lib/bootstrap/dist/css/bootstrap.css" responded 304 in 20.8129 ms

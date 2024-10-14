@@ -1,0 +1,75 @@
+2024-07-20 08:29:42.717 -07:00 [INF] Starting web host
+2024-07-20 08:29:59.513 -07:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Transaction'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-20 08:30:36.620 -07:00 [WRN] Failed to determine the https port for redirect.
+2024-07-20 08:30:46.119 -07:00 [INF] HTTP GET / responded 200 in 7763.2728 ms
+2024-07-20 08:30:46.311 -07:00 [INF] HTTP GET /css/site.css responded 304 in 33.5238 ms
+2024-07-20 08:30:46.311 -07:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.css responded 304 in 12.4178 ms
+2024-07-20 08:30:46.312 -07:00 [INF] HTTP GET /TenexCars.styles.css responded 304 in 33.6581 ms
+2024-07-20 08:30:46.312 -07:00 [INF] HTTP GET /Assets/logo2.png responded 304 in 33.6135 ms
+2024-07-20 08:30:46.479 -07:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.5598 ms
+2024-07-20 08:30:46.483 -07:00 [INF] HTTP GET /js/site.js responded 304 in 0.3268 ms
+2024-07-20 08:30:46.592 -07:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.4421 ms
+2024-07-20 08:31:01.131 -07:00 [INF] HTTP GET /Account/Login responded 200 in 491.4833 ms
+2024-07-20 08:31:01.668 -07:00 [INF] HTTP GET /lib/jquery-validation/dist/jquery.validate.min.js responded 304 in 0.2287 ms
+2024-07-20 08:31:01.669 -07:00 [INF] HTTP GET /Assets/hand-car.jpg responded 304 in 0.2174 ms
+2024-07-20 08:31:01.668 -07:00 [INF] HTTP GET /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js responded 304 in 0.2484 ms
+2024-07-20 08:31:06.532 -07:00 [INF] User found: manor@mailinator.com
+2024-07-20 08:31:10.746 -07:00 [INF] User roles: Main_Operator
+2024-07-20 08:31:10.764 -07:00 [INF] Redirecting to Operator page
+2024-07-20 08:31:10.796 -07:00 [INF] HTTP POST /Account/Login responded 302 in 6528.9921 ms
+2024-07-20 08:31:14.515 -07:00 [INF] HTTP GET /Operator/OperatorDashboard responded 200 in 3503.3413 ms
+2024-07-20 08:31:14.742 -07:00 [INF] HTTP GET /Assets/logo2.png responded 304 in 0.3576 ms
+2024-07-20 08:31:14.811 -07:00 [INF] HTTP GET /Assets/me-about.jpg responded 404 in 35.5300 ms
+2024-07-20 08:31:19.455 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 1442.8645 ms
+2024-07-20 08:31:29.866 -07:00 [INF] HTTP POST /Subscription/AssignVehicle responded 302 in 1466.4965 ms
+2024-07-20 08:31:29.982 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 95.7431 ms
+2024-07-20 08:36:34.300 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 620.5282 ms
+2024-07-20 08:36:35.298 -07:00 [INF] HTTP GET /favicon.ico responded 304 in 0.3139 ms
+2024-07-20 08:36:44.002 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 830.4857 ms
+2024-07-20 08:36:46.968 -07:00 [INF] HTTP GET /Operator/OperatorDashboard responded 200 in 313.5033 ms
+2024-07-20 08:36:47.037 -07:00 [INF] HTTP GET /Assets/me-about.jpg responded 404 in 1.1673 ms
+2024-07-20 08:36:49.061 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 59.0890 ms
+2024-07-20 08:42:56.474 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 599.7662 ms
+2024-07-20 08:43:07.864 -07:00 [INF] HTTP POST /Subscription/AssignVehicle responded 302 in 757.5721 ms
+2024-07-20 08:43:07.957 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 53.5488 ms
+2024-07-20 08:51:33.375 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 2759.3294 ms
+2024-07-20 08:51:46.136 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 119.4581 ms
+2024-07-20 08:51:48.926 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 92.7272 ms
+2024-07-20 08:51:51.459 -07:00 [INF] HTTP GET /Operator/OperatorDashboard responded 200 in 745.8219 ms
+2024-07-20 08:51:51.508 -07:00 [INF] HTTP GET /Assets/me-about.jpg responded 404 in 1.7500 ms
+2024-07-20 08:51:53.205 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 25.7503 ms
+2024-07-20 08:51:55.339 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 31.2090 ms
+2024-07-20 08:51:56.776 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 23.5183 ms
+2024-07-20 08:51:57.587 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 16.5842 ms
+2024-07-20 08:51:57.988 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 17.9997 ms
+2024-07-20 08:51:58.373 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 27.3266 ms
+2024-07-20 08:51:58.804 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 25.6521 ms
+2024-07-20 08:51:59.215 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 19.1052 ms
+2024-07-20 08:51:59.603 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 18.8703 ms
+2024-07-20 08:52:01.134 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 79.0193 ms
+2024-07-20 08:52:01.769 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 93.8769 ms
+2024-07-20 08:52:02.579 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 99.4631 ms
+2024-07-20 08:52:04.703 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 48.4938 ms
+2024-07-20 08:52:23.875 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 69.8660 ms
+2024-07-20 08:52:25.585 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 84.8009 ms
+2024-07-20 08:52:28.850 -07:00 [INF] HTTP GET /Operator/OperatorDashboard responded 200 in 82.2025 ms
+2024-07-20 08:52:28.889 -07:00 [INF] HTTP GET /Assets/me-about.jpg responded 404 in 1.1795 ms
+2024-07-20 08:52:30.284 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 154.8040 ms
+2024-07-20 08:53:07.867 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 103.1120 ms
+2024-07-20 08:53:15.581 -07:00 [INF] HTTP POST /Subscription/AssignVehicle responded 302 in 113.0238 ms
+2024-07-20 08:53:15.686 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 80.5597 ms
+2024-07-20 08:58:44.714 -07:00 [Information] Starting web host
+2024-07-20 08:58:50.162 -07:00 [Warning] No store type was specified for the decimal property '"Amount"' on entity type '"Transaction"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-20 08:59:02.636 -07:00 [Information] HTTP "GET" "/" responded 200 in 2289.2901 ms
+2024-07-20 08:59:02.663 -07:00 [Information] HTTP "GET" "/lib/bootstrap/dist/css/bootstrap.css" responded 304 in 11.0664 ms
+2024-07-20 08:59:02.769 -07:00 [Information] HTTP "GET" "/TenexCars.styles.css" responded 304 in 0.4340 ms
+2024-07-20 08:59:02.769 -07:00 [Information] HTTP "GET" "/lib/jquery/dist/jquery.min.js" responded 304 in 0.4227 ms
+2024-07-20 08:59:02.769 -07:00 [Information] HTTP "GET" "/css/site.css" responded 304 in 2.3559 ms
+2024-07-20 08:59:02.769 -07:00 [Information] HTTP "GET" "/js/site.js" responded 304 in 0.4466 ms
+2024-07-20 08:59:02.794 -07:00 [Information] HTTP "GET" "/Assets/logo2.png" responded 304 in 0.4019 ms
+2024-07-20 08:59:02.831 -07:00 [Information] HTTP "GET" "/lib/bootstrap/dist/js/bootstrap.bundle.min.js" responded 304 in 0.3209 ms
+2024-07-20 08:59:27.017 -07:00 [Information] HTTP "GET" "/Subscription/OperatorSubscription" responded 200 in 3005.5931 ms
+2024-07-20 08:59:33.131 -07:00 [Information] HTTP "POST" "/Subscription/AssignVehicle" responded 302 in 2089.6104 ms
+2024-07-20 08:59:33.421 -07:00 [Information] HTTP "GET" "/Subscription/OperatorSubscription" responded 200 in 239.7040 ms
+2024-07-20 09:01:11.652 -07:00 [Information] HTTP "POST" "/Subscription/Contact" responded 302 in 17505.9529 ms
+2024-07-20 09:01:17.004 -07:00 [Information] HTTP "GET" "/Subscription/OperatorSubscription" responded 200 in 5300.8764 ms

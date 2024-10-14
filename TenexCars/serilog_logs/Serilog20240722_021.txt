@@ -1,0 +1,86 @@
+2024-07-22 11:35:22.754 +01:00 [INF] Starting web host
+2024-07-22 11:35:25.292 +01:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Transaction'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-22 11:35:28.781 +01:00 [INF] HTTP GET /Assets/img-2-3x-img-2-3x.png responded 304 in 51.9356 ms
+2024-07-22 11:35:28.782 +01:00 [INF] HTTP GET /Assets/v1.png responded 304 in 0.6501 ms
+2024-07-22 11:35:28.781 +01:00 [INF] HTTP GET /Assets/v3.png responded 304 in 4.2840 ms
+2024-07-22 11:35:28.820 +01:00 [INF] HTTP GET /Assets/work3.jpg responded 304 in 0.5036 ms
+2024-07-22 11:35:28.791 +01:00 [INF] HTTP GET / responded 200 in 568.7915 ms
+2024-07-22 11:35:28.802 +01:00 [INF] HTTP GET /Assets/v2.png responded 304 in 10.0632 ms
+2024-07-22 11:35:28.820 +01:00 [INF] HTTP GET /Assets/v5.png responded 304 in 0.5245 ms
+2024-07-22 11:35:28.948 +01:00 [INF] HTTP GET /Assets/work4.jpg responded 304 in 0.3977 ms
+2024-07-22 11:35:28.948 +01:00 [INF] HTTP GET /Assets/work2.jpg responded 304 in 0.4657 ms
+2024-07-22 11:35:28.844 +01:00 [INF] HTTP GET /Assets/work1.jpg responded 304 in 0.5264 ms
+2024-07-22 11:36:11.534 +01:00 [INF] HTTP GET /Account/Login responded 200 in 141.8254 ms
+2024-07-22 11:36:19.068 +01:00 [INF] User found: iuzumaki@yopmail.com
+2024-07-22 11:36:19.551 +01:00 [INF] User roles: Main_Subscriber
+2024-07-22 11:36:19.651 +01:00 [INF] Redirecting to Subscriber page
+2024-07-22 11:36:19.659 +01:00 [INF] HTTP POST /Account/Login responded 302 in 743.7757 ms
+2024-07-22 11:36:20.133 +01:00 [INF] HTTP GET /Subscriber/Profile responded 200 in 459.8193 ms
+2024-07-22 11:36:25.426 +01:00 [INF] HTTP GET /Subscriber/NewSubscription responded 200 in 101.0858 ms
+2024-07-22 11:36:41.966 +01:00 [INF] HTTP GET /Operator/OperatorVehicles/7b1fef8e-864d-4b83-9234-5541d6f17d09 responded 200 in 100.4086 ms
+2024-07-22 11:36:49.984 +01:00 [INF] HTTP GET /Subscriber/Profile responded 200 in 14.3316 ms
+2024-07-22 11:36:53.158 +01:00 [INF] HTTP GET /Subscriber/ActiveSubscription responded 200 in 28.3540 ms
+2024-07-22 11:36:55.894 +01:00 [INF] HTTP GET /Subscriber/Profile responded 200 in 12.8341 ms
+2024-07-22 11:36:58.108 +01:00 [INF] HTTP GET /Subscriber/SubscriptionHistory responded 200 in 24.6816 ms
+2024-07-22 11:37:03.234 +01:00 [INF] HTTP GET /Subscriber/Profile responded 200 in 13.3233 ms
+2024-07-22 11:38:00.341 +01:00 [INF] HTTP GET /Account/Login responded 200 in 6.7510 ms
+2024-07-22 11:38:17.671 +01:00 [INF] HTTP GET /Account/Logout responded 302 in 8.2355 ms
+2024-07-22 11:38:17.697 +01:00 [INF] HTTP GET /Account/Login responded 200 in 4.9478 ms
+2024-07-22 11:39:23.730 +01:00 [INF] HTTP GET /Account/Login responded 200 in 26.2797 ms
+2024-07-22 11:39:31.347 +01:00 [INF] User found: iuzumaki@yopmail.com
+2024-07-22 11:39:31.553 +01:00 [INF] User roles: Main_Subscriber
+2024-07-22 11:39:31.564 +01:00 [INF] Redirecting to Subscriber page
+2024-07-22 11:39:31.569 +01:00 [INF] HTTP POST /Account/Login responded 302 in 248.7741 ms
+2024-07-22 11:39:31.618 +01:00 [INF] HTTP GET /Subscriber/Profile responded 200 in 31.4240 ms
+2024-07-22 11:39:34.666 +01:00 [INF] HTTP GET /Account/Logout responded 302 in 2.9130 ms
+2024-07-22 11:39:34.690 +01:00 [INF] HTTP GET / responded 200 in 8.3195 ms
+2024-07-22 11:39:34.701 +01:00 [INF] HTTP GET /Assets/img-2-3x-img-2-3x.png responded 304 in 0.6079 ms
+2024-07-22 11:39:34.723 +01:00 [INF] HTTP GET /Assets/v5.png responded 304 in 3.1397 ms
+2024-07-22 11:39:34.723 +01:00 [INF] HTTP GET /Assets/work2.jpg responded 304 in 0.3593 ms
+2024-07-22 11:39:34.706 +01:00 [INF] HTTP GET /Assets/v3.png responded 304 in 0.5730 ms
+2024-07-22 11:39:34.717 +01:00 [INF] HTTP GET /Assets/v2.png responded 304 in 1.2068 ms
+2024-07-22 11:39:34.720 +01:00 [INF] HTTP GET /Assets/v1.png responded 304 in 1.7882 ms
+2024-07-22 11:39:34.723 +01:00 [INF] HTTP GET /Assets/work1.jpg responded 304 in 3.5463 ms
+2024-07-22 11:39:34.733 +01:00 [INF] HTTP GET /Assets/work3.jpg responded 304 in 7.8163 ms
+2024-07-22 11:39:34.773 +01:00 [INF] HTTP GET /Assets/work4.jpg responded 304 in 2.3101 ms
+2024-07-22 11:51:26.471 +01:00 [INF] HTTP GET / responded 200 in 16.5472 ms
+2024-07-22 11:51:26.496 +01:00 [INF] HTTP GET /Assets/img-2-3x-img-2-3x.png responded 304 in 1.1636 ms
+2024-07-22 11:51:26.509 +01:00 [INF] HTTP GET /Assets/v3.png responded 304 in 0.8857 ms
+2024-07-22 11:51:26.524 +01:00 [INF] HTTP GET /Assets/v2.png responded 304 in 1.3815 ms
+2024-07-22 11:51:26.569 +01:00 [INF] HTTP GET /Assets/v1.png responded 304 in 0.9059 ms
+2024-07-22 11:51:26.653 +01:00 [INF] HTTP GET /Assets/v5.png responded 304 in 1.1392 ms
+2024-07-22 11:51:26.661 +01:00 [INF] HTTP GET /Assets/work3.jpg responded 304 in 0.8842 ms
+2024-07-22 11:51:26.687 +01:00 [INF] HTTP GET /Assets/work1.jpg responded 304 in 2.0354 ms
+2024-07-22 11:51:26.698 +01:00 [INF] HTTP GET /Assets/work2.jpg responded 304 in 0.7231 ms
+2024-07-22 11:51:26.700 +01:00 [INF] HTTP GET /Assets/work4.jpg responded 304 in 1.1433 ms
+2024-07-22 11:51:33.423 +01:00 [INF] HTTP GET /Account/Login responded 200 in 28.9379 ms
+2024-07-22 11:51:35.793 +01:00 [INF] User found: iuzumaki@yopmail.com
+2024-07-22 11:51:36.026 +01:00 [INF] User roles: Main_Subscriber
+2024-07-22 11:51:36.049 +01:00 [INF] Redirecting to Subscriber page
+2024-07-22 11:51:36.055 +01:00 [INF] HTTP POST /Account/Login responded 302 in 533.7399 ms
+2024-07-22 11:51:36.132 +01:00 [INF] HTTP GET /Subscriber/Profile responded 200 in 52.6489 ms
+2024-07-22 11:51:39.411 +01:00 [INF] HTTP GET /Subscriber/NewSubscription responded 200 in 22.5351 ms
+2024-07-22 11:52:06.482 +01:00 [INF] HTTP GET /Subscriber/NewSubscription responded 200 in 26.8121 ms
+2024-07-22 11:52:14.257 +01:00 [INF] HTTP GET /Subscriber/ActiveSubscription responded 200 in 59.7288 ms
+2024-07-22 11:52:16.587 +01:00 [INF] HTTP GET /Subscriber/Profile responded 200 in 42.9168 ms
+2024-07-22 11:52:21.817 +01:00 [INF] HTTP GET /Subscriber/SubscriptionHistory responded 200 in 50.6671 ms
+2024-07-22 11:52:24.830 +01:00 [INF] HTTP GET /Subscriber/Profile responded 200 in 41.9186 ms
+2024-07-22 11:55:06.741 +01:00 [Information] Starting web host
+2024-07-22 11:55:09.486 +01:00 [Warning] No store type was specified for the decimal property '"Amount"' on entity type '"Transaction"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-22 11:55:15.667 +01:00 [Information] HTTP "GET" "/" responded 200 in 736.7618 ms
+2024-07-22 11:55:15.903 +01:00 [Information] HTTP "GET" "/Assets/work3.jpg" responded 304 in 0.4258 ms
+2024-07-22 11:55:15.860 +01:00 [Information] HTTP "GET" "/Assets/v3.png" responded 304 in 25.3391 ms
+2024-07-22 11:55:15.832 +01:00 [Information] HTTP "GET" "/Assets/v5.png" responded 304 in 0.8782 ms
+2024-07-22 11:55:15.830 +01:00 [Information] HTTP "GET" "/Assets/v2.png" responded 304 in 10.5919 ms
+2024-07-22 11:55:15.917 +01:00 [Information] HTTP "GET" "/Assets/v1.png" responded 304 in 0.5686 ms
+2024-07-22 11:55:15.833 +01:00 [Information] HTTP "GET" "/Assets/img-2-3x-img-2-3x.png" responded 304 in 13.6031 ms
+2024-07-22 11:55:15.995 +01:00 [Information] HTTP "GET" "/Assets/work1.jpg" responded 304 in 0.4773 ms
+2024-07-22 11:55:16.063 +01:00 [Information] HTTP "GET" "/Assets/work2.jpg" responded 304 in 0.4628 ms
+2024-07-22 11:55:16.066 +01:00 [Information] HTTP "GET" "/Assets/work4.jpg" responded 304 in 0.6537 ms
+2024-07-22 11:55:35.809 +01:00 [Information] HTTP "GET" "/Operator/Home" responded 200 in 936.1801 ms
+2024-07-22 11:58:10.495 +01:00 [Information] HTTP "GET" "/Operator/Home" responded 200 in 142.7788 ms
+2024-07-22 11:58:53.549 +01:00 [Information] HTTP "GET" "/Operator/Home" responded 200 in 121.2404 ms
+2024-07-22 12:00:27.079 +01:00 [Information] HTTP "GET" "/Operator/Home" responded 200 in 113.1865 ms
+2024-07-22 12:02:16.718 +01:00 [Information] HTTP "GET" "/Operator/Home" responded 200 in 182.7417 ms
+2024-07-22 12:03:47.202 +01:00 [Information] HTTP "GET" "/Operator/CarDetails/246b1ccf-dd6a-490e-8c87-2ee49f331c99" responded 200 in 55.4994 ms
+2024-07-22 12:03:56.384 +01:00 [Information] HTTP "GET" "/Operator/Home" responded 200 in 15.8197 ms

@@ -1,0 +1,22 @@
+2024-07-22 09:10:03.835 +01:00 [INF] Starting web host
+2024-07-22 09:10:06.719 +01:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Transaction'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-22 09:10:16.833 +01:00 [INF] HTTP GET / responded 200 in 464.4329 ms
+2024-07-22 09:10:16.920 +01:00 [INF] HTTP GET /css/site.css responded 200 in 79.7827 ms
+2024-07-22 09:10:16.935 +01:00 [INF] HTTP GET /js/site.js responded 200 in 5.3411 ms
+2024-07-22 09:10:16.925 +01:00 [INF] HTTP GET /js/site.js responded 200 in 30.2503 ms
+2024-07-22 09:10:17.099 +01:00 [INF] HTTP GET /Assets/work4.jpg responded 200 in 86.9940 ms
+2024-07-22 09:10:17.099 +01:00 [INF] HTTP GET /Assets/work1.jpg responded 200 in 109.6990 ms
+2024-07-22 09:10:17.252 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 410.0687 ms
+2024-07-22 09:10:17.199 +01:00 [INF] HTTP GET /Assets/work3.jpg responded 200 in 241.2115 ms
+2024-07-22 09:10:17.111 +01:00 [INF] HTTP GET /Assets/logo2.png responded 200 in 271.4653 ms
+2024-07-22 09:10:17.183 +01:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 263.7819 ms
+2024-07-22 09:10:17.186 +01:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 289.5864 ms
+2024-07-22 09:10:17.181 +01:00 [INF] HTTP GET /Assets/work2.jpg responded 200 in 173.4589 ms
+2024-07-22 09:10:17.217 +01:00 [INF] HTTP GET /Assets/v1.png responded 200 in 337.8300 ms
+2024-07-22 09:10:17.227 +01:00 [INF] HTTP GET /Assets/v2.png responded 200 in 347.6185 ms
+2024-07-22 09:10:17.325 +01:00 [INF] HTTP GET /Assets/v5.png responded 200 in 370.3818 ms
+2024-07-22 09:10:17.252 +01:00 [INF] HTTP GET /Assets/v3.png responded 200 in 372.5189 ms
+2024-07-22 09:10:17.926 +01:00 [INF] HTTP GET /Assets/img-2-3x-img-2-3x.png responded 200 in 1085.9277 ms
+2024-07-22 09:14:07.335 +01:00 [Information] Starting web host
+2024-07-22 09:14:11.854 +01:00 [Warning] No store type was specified for the decimal property '"Amount"' on entity type '"Transaction"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-22 09:14:17.917 +01:00 [Information] HTTP "GET" "/" responded 200 in 555.9156 ms

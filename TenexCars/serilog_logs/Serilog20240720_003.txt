@@ -1,0 +1,17 @@
+2024-07-20 09:18:32.486 -07:00 [INF] Starting web host
+2024-07-20 09:18:43.740 -07:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Transaction'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-20 09:19:09.290 -07:00 [INF] HTTP GET / responded 200 in 3877.5233 ms
+2024-07-20 09:20:11.047 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 2396.7938 ms
+2024-07-20 09:20:16.666 -07:00 [INF] HTTP POST /Subscription/AssignVehicle responded 302 in 1059.3345 ms
+2024-07-20 09:20:16.787 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 84.6280 ms
+2024-07-20 12:05:37.978 -07:00 [Information] Starting web host
+2024-07-20 12:05:49.977 -07:00 [Warning] No store type was specified for the decimal property '"Amount"' on entity type '"Transaction"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-20 12:06:18.836 -07:00 [Information] HTTP "GET" "/" responded 200 in 1933.4437 ms
+2024-07-20 12:06:25.436 -07:00 [Information] HTTP "GET" "/Operator/OperatorDashboard" responded 200 in 1504.6225 ms
+2024-07-20 12:06:25.727 -07:00 [Information] HTTP "GET" "/Assets/logo2.png" responded 304 in 33.2464 ms
+2024-07-20 12:06:25.785 -07:00 [Information] HTTP "GET" "/Assets/me-about.jpg" responded 404 in 91.4412 ms
+2024-07-20 12:06:29.076 -07:00 [Information] HTTP "GET" "/Subscription/OperatorSubscription" responded 200 in 921.3097 ms
+2024-07-20 12:06:34.807 -07:00 [Information] Preparing to send email to "joel2thewrld@gmail.com"
+2024-07-20 12:06:42.200 -07:00 [Information] Email sent successfully to "joel2thewrld@gmail.com"
+2024-07-20 12:06:42.207 -07:00 [Information] HTTP "POST" "/Subscription/AssignVehicle" responded 302 in 8189.3455 ms
+2024-07-20 12:06:43.300 -07:00 [Information] HTTP "GET" "/Subscription/OperatorSubscription" responded 200 in 887.9698 ms

@@ -1,0 +1,19 @@
+2024-07-22 11:55:06.741 +01:00 [INF] Starting web host
+2024-07-22 11:55:09.486 +01:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Transaction'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-22 11:55:15.667 +01:00 [INF] HTTP GET / responded 200 in 736.7618 ms
+2024-07-22 11:55:15.903 +01:00 [INF] HTTP GET /Assets/work3.jpg responded 304 in 0.4258 ms
+2024-07-22 11:55:15.860 +01:00 [INF] HTTP GET /Assets/v3.png responded 304 in 25.3391 ms
+2024-07-22 11:55:15.832 +01:00 [INF] HTTP GET /Assets/v5.png responded 304 in 0.8782 ms
+2024-07-22 11:55:15.830 +01:00 [INF] HTTP GET /Assets/v2.png responded 304 in 10.5919 ms
+2024-07-22 11:55:16.063 +01:00 [INF] HTTP GET /Assets/work2.jpg responded 304 in 0.4628 ms
+2024-07-22 11:55:16.066 +01:00 [INF] HTTP GET /Assets/work4.jpg responded 304 in 0.6537 ms
+2024-07-22 11:55:15.917 +01:00 [INF] HTTP GET /Assets/v1.png responded 304 in 0.5686 ms
+2024-07-22 11:55:15.833 +01:00 [INF] HTTP GET /Assets/img-2-3x-img-2-3x.png responded 304 in 13.6031 ms
+2024-07-22 11:55:15.995 +01:00 [INF] HTTP GET /Assets/work1.jpg responded 304 in 0.4773 ms
+2024-07-22 11:55:35.809 +01:00 [INF] HTTP GET /Operator/Home responded 200 in 936.1801 ms
+2024-07-22 11:58:10.495 +01:00 [INF] HTTP GET /Operator/Home responded 200 in 142.7788 ms
+2024-07-22 11:58:53.549 +01:00 [INF] HTTP GET /Operator/Home responded 200 in 121.2404 ms
+2024-07-22 12:00:27.079 +01:00 [INF] HTTP GET /Operator/Home responded 200 in 113.1865 ms
+2024-07-22 12:02:16.718 +01:00 [INF] HTTP GET /Operator/Home responded 200 in 182.7417 ms
+2024-07-22 12:03:47.202 +01:00 [INF] HTTP GET /Operator/CarDetails/246b1ccf-dd6a-490e-8c87-2ee49f331c99 responded 200 in 55.4994 ms
+2024-07-22 12:03:56.384 +01:00 [INF] HTTP GET /Operator/Home responded 200 in 15.8197 ms

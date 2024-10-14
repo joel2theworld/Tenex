@@ -1,0 +1,15 @@
+2024-07-22 11:05:55.189 -07:00 [INF] Starting web host
+2024-07-22 11:06:06.085 -07:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Transaction'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-22 11:08:25.306 -07:00 [INF] HTTP GET / responded 200 in 24136.3806 ms
+2024-07-22 11:08:29.117 -07:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.css responded 304 in 113.0315 ms
+2024-07-22 11:08:29.434 -07:00 [INF] HTTP GET /css/site.css responded 304 in 0.5479 ms
+2024-07-22 11:08:29.864 -07:00 [INF] HTTP GET /TenexCars.styles.css responded 200 in 430.3336 ms
+2024-07-22 11:08:29.914 -07:00 [INF] HTTP GET /Assets/logo2.png responded 304 in 0.2256 ms
+2024-07-22 11:08:30.011 -07:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.2932 ms
+2024-07-22 11:08:30.012 -07:00 [INF] HTTP GET /js/site.js responded 304 in 0.3100 ms
+2024-07-22 11:08:30.053 -07:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.3066 ms
+2024-07-22 11:08:32.583 -07:00 [INF] HTTP GET /favicon.ico responded 304 in 0.3510 ms
+2024-07-22 11:08:36.944 -07:00 [INF] HTTP GET /Account/Login responded 200 in 977.1509 ms
+2024-07-22 11:08:37.240 -07:00 [INF] HTTP GET /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js responded 304 in 0.2430 ms
+2024-07-22 11:08:37.240 -07:00 [INF] HTTP GET /Assets/hand-car.jpg responded 304 in 0.2575 ms
+2024-07-22 11:08:37.241 -07:00 [INF] HTTP GET /lib/jquery-validation/dist/jquery.validate.min.js responded 304 in 0.1883 ms

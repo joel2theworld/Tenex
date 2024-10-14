@@ -1,0 +1,330 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{
+    Layout = "_IndexLayout";
+}
+
+<!-- Meet the Fleet Section -->
+<div class="container text-center my-5 mb-4">
+    <a class="nav-link" asp-area="" asp-controller="Operator" asp-action="Home" style="color:red;">
+        View Fleet
+    </a>
+    <div id="fleetCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="~/Assets/v3.png" class="img-fluid car-image" alt="Cars">
+                        <p>Cars</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="~/Assets/v2.png" class="img-fluid car-image" alt="Sport Cars">
+                        <p>Sport Cars</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="~/Assets/v1.png" class="img-fluid car-image" alt="Electric Cars">
+                        <p>Electric Cars</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="~/Assets/v5.png" class="img-fluid car-image" alt="Trucks">
+                        <p>Trucks</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="~/Assets/v3.png" class="img-fluid car-image" alt="Cars">
+                        <p>Cars</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="~/Assets/v2.png" class="img-fluid car-image" alt="Sport Cars">
+                        <p>Sport Cars</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="~/Assets/v1.png" class="img-fluid car-image" alt="Electric Cars">
+                        <p>Electric Cars</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="~/Assets/v5.png" class="img-fluid car-image" alt="Trucks">
+                        <p>Trucks</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <a class="carousel-control-prev" href="#fleetCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon dark" aria-hidden="true"></span>
+            <span class="sr-only ">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#fleetCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon dark" aria-hidden="true"></span>
+            <span class="sr-only ">Next</span>
+        </a>
+    </div>
+</div>
+
+<!-- Current Deals Section -->
+<div class="row">
+    <div class="col-md-3 mb-3">
+        <div class="card h-100 shadow-sm custom-card">
+            <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Current Deals</h6>
+                <img src="~/Assets/work3.jpg" class="img-fluid car-image card-image h-50" alt="SUV">
+                <p class="card-text flex-grow-1">Experience the joy of renting with confidence from a brand you can trust.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card h-100 shadow-sm custom-card">
+            <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Rent</h6>
+                <img src="~/Assets/work1.jpg" class="img-fluid car-image card-image h-50" alt="SUV">
+                <p class="card-text flex-grow-1">Need to rent a vehicle after an accident? Let us help you get back on the road.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card h-100 shadow-sm custom-card">
+            <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Travel Planning</h6>
+                <img src="~/Assets/work2.jpg" class="img-fluid car-image card-image h-50" alt="SUV">
+                <p class="card-text flex-grow-1">Ready to advance the world, one journey at a time? Then let's get moving.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card h-100 shadow-sm custom-card">
+            <div class="card-body d-flex flex-column">
+                <h6 class="card-title">TenexCars Plus</h6>
+                <img src="~/Assets/work4.jpg" class="img-fluid car-image card-image h-50" alt="SUV">
+                <p class="card-text flex-grow-1"> Our commitment to ensure you always have a clean, well-maintained vehicle.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<hr />
+
+<!-- Footer Section -->
+<footer class="footer bg-white pt-2 pb-2 ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <p>Reservations</p>
+                <ul class="list-unstyled">
+                    <li><a href="#">Start a Reservation</a></li>
+                    <li><a href="#">View/Modify/Cancel</a></li>
+                    <li><a href="#">Subscribe with Enterprise</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <p>Vehicles</p>
+                <ul class="list-unstyled">
+                    <li><a href="#">Cars</a></li>
+                    <li><a href="#">SUVs</a></li>
+                    <li><a href="#">Trucks</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <p>Customer Service</p>
+                <ul class="list-unstyled">
+                    <li><a href="#">Help & FAQs</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Site Map</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <p>International Websites</p>
+                <ul class="list-unstyled">
+                    <li><a href="#">TenexCars Canada</a></li>
+                    <li><a href="#">TenexCars USA</a></li>
+                    <li><a href="#">TenexCars UK</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<style>
+    .car-image {
+        width: 100%; /* Ensures the image takes up the full width of the column */
+    }
+
+    .card-image {
+        margin-bottom: 20px; /* Adds space between the image and the paragraph */
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Navbar Styles */
+    .mfn__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: white;
+        padding: 10px 20px;
+    }
+
+    .mfn__logoholder {
+        display: flex;
+        align-items: center;
+    }
+
+    .mfn__logolink {
+        display: flex;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+    }
+
+    .mfn__logo--desktop {
+        height: 35px;
+        width: 168px;
+    }
+
+    .mfn__topright {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-nav-item {
+        display: flex;
+    }
+
+    .utility-nav {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+        .utility-nav li {
+            margin-right: 20px;
+        }
+
+    .utility-nav__header-link a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .sign-in {
+        margin-left: 20px;
+        font-size: medium;
+    }
+
+    .cta-container button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    .mfn__hamburger {
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        display: none; /* Only show on mobile */
+    }
+
+    .mfn__hamburger-icon,
+    .mfn__close-icon {
+        font-size: 24px;
+    }
+
+    .modal-backdrop {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .modal-content {
+        border-radius: 0.5rem;
+    }
+
+    /* Footer link color */
+    .footer a {
+        font-size: 10px;
+        color: black;
+        /* text-decoration:none; */
+    }
+
+    p {
+        font-size: small;
+    }
+
+    /* Custom card height */
+    .custom-card {
+        min-height: 400px; /* Increase the card height as needed */
+    }
+
+    #fleetCarousel {
+        width: 100%;
+    }
+
+        #fleetCarousel .carousel-item {
+            height: auto;
+        }
+
+        #fleetCarousel .car-image {
+            max-height: 150px;
+            width: auto;
+            margin: 0 auto;
+        }
+
+        #fleetCarousel p {
+            margin-top: 10px;
+        }
+
+    /* Responsive styles for smaller screens */
+    @@media (max-width: 767px) {
+        #fleetCarousel .row {
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        #fleetCarousel .col-md-3 {
+            flex: 0 0 auto;
+            width: 50%;
+        }
+    }
+
+    /* Responsive styles */
+    @@media (max-width: 768px) {
+        .mfn__hamburger {
+            display: block;
+        }
+
+        .mfn__topright,
+        .utility-nav {
+            display: none;
+        }
+
+        .mfn__top[aria-expanded="true"] .mfn__topright,
+        .mfn__top[aria-expanded="true"] .utility-nav {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+</style>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="~/js/site.js"></script>

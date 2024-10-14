@@ -1,0 +1,6 @@
+2024-07-22 09:14:07.335 +01:00 [INF] Starting web host
+2024-07-22 09:14:11.854 +01:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Transaction'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-22 09:14:17.917 +01:00 [INF] HTTP GET / responded 200 in 555.9156 ms
+2024-07-22 09:15:48.326 +01:00 [Information] Starting web host
+2024-07-22 09:15:50.850 +01:00 [Warning] No store type was specified for the decimal property '"Amount"' on entity type '"Transaction"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-22 09:15:58.030 +01:00 [Information] HTTP "GET" "/" responded 200 in 408.1792 ms

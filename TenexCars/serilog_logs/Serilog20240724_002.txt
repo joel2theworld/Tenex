@@ -1,0 +1,19 @@
+2024-07-24 10:19:27.892 -07:00 [INF] Starting web host
+2024-07-24 10:19:41.363 -07:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Transaction'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-24 10:21:09.545 -07:00 [INF] HTTP GET / responded 200 in 11210.1091 ms
+2024-07-24 10:21:10.272 -07:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 3.3751 ms
+2024-07-24 10:21:10.272 -07:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.9432 ms
+2024-07-24 10:21:10.283 -07:00 [INF] HTTP GET /js/site.js responded 304 in 0.3232 ms
+2024-07-24 10:21:10.289 -07:00 [INF] HTTP GET /Assets/logo2.png responded 304 in 0.3097 ms
+2024-07-24 10:21:10.297 -07:00 [INF] HTTP GET /css/site.css responded 304 in 0.2969 ms
+2024-07-24 10:21:10.307 -07:00 [INF] HTTP GET /js/site.js responded 200 in 550.8728 ms
+2024-07-24 10:21:11.443 -07:00 [INF] HTTP GET /Assets/v2.png responded 200 in 1482.8658 ms
+2024-07-24 10:21:12.256 -07:00 [INF] HTTP GET /Assets/work4.jpg responded 200 in 2008.6606 ms
+2024-07-24 10:21:12.263 -07:00 [INF] HTTP GET /Assets/v3.png responded 200 in 2303.3956 ms
+2024-07-24 10:21:12.306 -07:00 [INF] HTTP GET /Assets/work3.jpg responded 200 in 2332.7453 ms
+2024-07-24 10:21:12.321 -07:00 [INF] HTTP GET /Assets/work2.jpg responded 200 in 2083.3725 ms
+2024-07-24 10:21:12.397 -07:00 [INF] HTTP GET /Assets/v1.png responded 200 in 2437.1736 ms
+2024-07-24 10:21:12.509 -07:00 [INF] HTTP GET /Assets/work1.jpg responded 200 in 2401.3254 ms
+2024-07-24 10:21:12.705 -07:00 [INF] HTTP GET /Assets/v5.png responded 200 in 2739.5738 ms
+2024-07-24 10:21:21.625 -07:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 11887.3628 ms
+2024-07-24 10:21:22.303 -07:00 [INF] HTTP GET /Assets/img-2-3x-img-2-3x.png responded 200 in 12524.5993 ms

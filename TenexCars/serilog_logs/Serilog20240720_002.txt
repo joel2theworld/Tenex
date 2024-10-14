@@ -1,0 +1,21 @@
+2024-07-20 08:58:44.714 -07:00 [INF] Starting web host
+2024-07-20 08:58:50.162 -07:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Transaction'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-20 08:59:02.636 -07:00 [INF] HTTP GET / responded 200 in 2289.2901 ms
+2024-07-20 08:59:02.663 -07:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.css responded 304 in 11.0664 ms
+2024-07-20 08:59:02.769 -07:00 [INF] HTTP GET /TenexCars.styles.css responded 304 in 0.4340 ms
+2024-07-20 08:59:02.769 -07:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.4227 ms
+2024-07-20 08:59:02.769 -07:00 [INF] HTTP GET /css/site.css responded 304 in 2.3559 ms
+2024-07-20 08:59:02.769 -07:00 [INF] HTTP GET /js/site.js responded 304 in 0.4466 ms
+2024-07-20 08:59:02.831 -07:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.3209 ms
+2024-07-20 08:59:02.794 -07:00 [INF] HTTP GET /Assets/logo2.png responded 304 in 0.4019 ms
+2024-07-20 08:59:27.017 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 3005.5931 ms
+2024-07-20 08:59:33.131 -07:00 [INF] HTTP POST /Subscription/AssignVehicle responded 302 in 2089.6104 ms
+2024-07-20 08:59:33.421 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 239.7040 ms
+2024-07-20 09:01:11.652 -07:00 [INF] HTTP POST /Subscription/Contact responded 302 in 17505.9529 ms
+2024-07-20 09:01:17.004 -07:00 [INF] HTTP GET /Subscription/OperatorSubscription responded 200 in 5300.8764 ms
+2024-07-20 09:18:32.486 -07:00 [Information] Starting web host
+2024-07-20 09:18:43.740 -07:00 [Warning] No store type was specified for the decimal property '"Amount"' on entity type '"Transaction"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-20 09:19:09.290 -07:00 [Information] HTTP "GET" "/" responded 200 in 3877.5233 ms
+2024-07-20 09:20:11.047 -07:00 [Information] HTTP "GET" "/Subscription/OperatorSubscription" responded 200 in 2396.7938 ms
+2024-07-20 09:20:16.666 -07:00 [Information] HTTP "POST" "/Subscription/AssignVehicle" responded 302 in 1059.3345 ms
+2024-07-20 09:20:16.787 -07:00 [Information] HTTP "GET" "/Subscription/OperatorSubscription" responded 200 in 84.6280 ms

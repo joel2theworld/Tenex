@@ -1,0 +1,13 @@
+2024-07-22 09:23:21.353 +01:00 [INF] Starting web host
+2024-07-22 09:23:24.629 +01:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Transaction'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-22 09:23:33.355 +01:00 [INF] HTTP GET / responded 200 in 923.2896 ms
+2024-07-22 09:30:58.018 +01:00 [INF] HTTP GET /Account/Login responded 200 in 171.1126 ms
+2024-07-22 09:30:58.091 +01:00 [INF] HTTP GET /TenexCars.styles.css responded 200 in 38.7705 ms
+2024-07-22 09:30:58.096 +01:00 [INF] HTTP GET /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js responded 200 in 11.1756 ms
+2024-07-22 09:30:58.123 +01:00 [INF] HTTP GET /Assets/hand-car.jpg responded 200 in 64.6725 ms
+2024-07-22 09:30:58.118 +01:00 [INF] HTTP GET /lib/jquery-validation/dist/jquery.validate.min.js responded 200 in 33.2829 ms
+2024-07-22 09:30:58.114 +01:00 [INF] HTTP GET /Assets/logo2.png responded 200 in 59.1704 ms
+2024-07-22 09:30:58.144 +01:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.css responded 200 in 94.5331 ms
+2024-07-22 09:33:56.686 +01:00 [Information] Starting web host
+2024-07-22 09:33:59.696 +01:00 [Warning] No store type was specified for the decimal property '"Amount"' on entity type '"Transaction"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-22 09:34:04.904 +01:00 [Information] HTTP "GET" "/" responded 200 in 434.3405 ms
